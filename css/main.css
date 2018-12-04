@@ -1,9 +1,10 @@
 html {
   font-family: 'Catamaran', sans-serif;
   color: #44331c;
+  background-color: #fffaf4;
 }
 
-header{
+header, footer {
   background-color: #cded9e;
 }
 
@@ -17,13 +18,20 @@ a:hover {
 }
 
 .card {
-  background-color: #e1f2c9;
   border: 2px dashed #44331c;
   border-radius: 15px;
-  box-shadow: -2px 3px #e2e2e2;
+  box-shadow: -2px 4px #e2cdb5;
 }
 
 .btn-ghost {
-  color: #005e76;
-  border: 1px solid #0084a6;
+  color: #44331c;
+  border: 1px solid #44331c;
+}
+
+.btn:hover {
+  background-color: #e1f2c9;
+}
+
+.banner {
+  position: relative;
 }
