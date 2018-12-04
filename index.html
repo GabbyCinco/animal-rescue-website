@@ -8,52 +8,69 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700" rel="stylesheet">
 </head>
 <body>
 
-  <header class="grid grid-middle text-center gutter-1-2 pad-t-1-2 push-0">
+  <ul class="skip-links hidden">
+    <li><a href="#nav">Jump to the navigation</a></li>
+    <li><a href="#main">Jump to the main content</a></li>
+  </ul>
+
+  <header class="grid grid-middle text-center pad-t-1-2 pad-b-1-4 push-0">
     <div class="title inline unit xs-1 s-1 m-1 l-1-4 push">
-      <h1 class="bold mega push-0">Freedom Dog Rescue</h1>
+      <h1 class="bold yotta push-0">Freedom Dog Rescue</h1>
     </div>
     <div class="unit xs-1 xs-1 m-1 l-3-4 push-1-2">
-      <nav class="mega">
+      <nav role="navigation" id="nav" tabindex="0" class="mega">
         <ul class="list list-group list-group-inline push-0">
-          <li><a class="gutter-1-2 link-box" href="#home">Home</a></li>
-          <li><a class="gutter-1-2 link-box" href="#rescues">Rescues</a></li>
-          <li><a class="gutter-1-2 link-box" href="#adopt">Adopt</a></li>
-          <li><a class="gutter-1-2 link-box" href="#about">About</a></li>
+          <li><a class="gutter-1-2 current" href="index.html">Home</a></li>
+          <li><a class="gutter-1-2" href="rescues.html">Rescues</a></li>
+          <li><a class="gutter-1-2" href="adopt.html">Adopt</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <div class="gutter-1-2">
-      <h2 class="">Rescue Stories</h2>
-    </div>
-    <section>
-      <div class="gutter-1-2 text-center">
-        <div class="">
-          <img src="" alt="">
+  <div role="banner" id="top" class="push-2">
+    <img class="img-flex" src="images/cute.jpg" alt="">
+  </div>
+
+  <main class="gutter-1-2" role="main" id="main" tabindex="0">
+    <section class="grid">
+      <div class="unit gutter-1-2 text-center">
+        <h2 class="">Make Freedom Happen One Dog at a Time</h2>
+      </div>
+    </section>
+    <section class="grid">
+      <div class=" unit gutter-1-2 text-center">
+        <h2 class="">Rescue Stories</h2>
+      </div>
+      <div class="unit card push pad-b pad-t gutter-1-2 text-center">
+        <div class="push-1-2 embed embed-3by2">
+          <img class="embed-item img-flex content-fill unit-content-distribute" src="images/corgi.jpg" alt="#">
         </div>
-        <h3>Sammy</h3>
+        <h3 class="push-1-4">Sammy</h3>
         <p>Survived a hit and run situation and was picked up on the side of the road.</p>
+        <a class="link-box btn btn-ghost text-center" href="#viewing">Read entire story</a>
       </div>
 
-      <div class="gutter-1-2 text-center">
-        <div class="">
-          <img src="" alt="">
+      <div class="unit card push pad-b pad-t gutter-1-2 text-center">
+        <div class="push-1-2 embed embed-3by2">
+          <img class="embed-item img-flex content-fill unit-content-distribute" src="images/" alt="#">
         </div>
-        <h3>Momo</h3>
-        <p>Picked up from a dumpster</p>
+        <h3 class="push-1-4">Momo</h3>
+        <p>Was found in a dumpster in the city needed treament on a broken limb.</p>
+        <a class="link-box btn btn-ghost text-center" href="#viewing">Read entire story</a>
       </div>
 
-      <div class="gutter-1-2 text-center">
-        <div class="">
-          <img src="" alt="">
+      <div class="unit card push pad-b pad-t gutter-1-2 text-center">
+        <div class="push-1-2 embed embed-3by2">
+          <img class="embed-item img-flex content-fill unit-content-distribute" src="images/german-shepherd.jpg" alt="#">
         </div>
-        <h3>Chanie</h3>
-        <p>Survived a hit and run situation and was picked up on the side of the road.</p>
+        <h3 class="push-1-4">Chanie</h3>
+        <p>Neighbours saw Chanie sit in front of house gates eveyday, waiting for his owner to return.</p>
+        <a class="link-box btn btn-ghost text-center" href="#viewing">Read entire story</a>
       </div>
     </section>
   </main>
