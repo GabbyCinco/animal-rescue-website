@@ -36,6 +36,84 @@
     <img class="img-flex" src="" alt="">
   </div>
 
+  <form class="gutter-1-2 form" method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+    <fieldset>
+      <legend class="personal mega push">Personal details</legend>
+      <div class="grid ">
+        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+          <label for="name">First Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+          <label for="name">Last Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <label for="age">Date of birth</label>
+          <input id="age" type="date" name="age">
+        </div>
+        <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <label for="subject">Gender</label>
+          <select id="subject" name="_subject">
+            <option></option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="activities light-green-border push-0 pad-t pad-b">
+        <div class="push-2">
+          <input id="digging" type="radio" name="agree">
+          <label for="digging">I agree to the Spotify's Terms of Service and Privacy policy.</label>
+
+          <input id="dirty" type="radio" name="agree">
+          <label for="dirty">I disagree to the Spotify's Terms of Service and Privacy policy.</label>
+      </div>
+      <div class="pad-t-1-8 center-content-horizontal push-2">
+        <button class="btn" type="submit">Sign Up</button>
+      </div>
+      <input type="hidden" name="_subject" value="Request to join the mission">
+    </fieldset>
+  </form>
+
+  <footer class="grid pad-t">
+    <div class="unit xs-1">
+      <ul class="list-group">
+        <li>
+          <i class="icon i-32">
+            <img src="images/fb-icon.svg" alt="">
+          </i>
+          <i class="icon i-32">
+            <img src="images/ig-icon.svg" alt="">
+          </i>
+          <i class="icon i-32">
+            <img src="images/twt-icon.svg" alt="">
+          </i>
+          <i class="icon i-32">
+            <img src="images/sc-icon.svg" alt="">
+          </i>
+        </li>
+      </ul>
+    </div>
+    <div class="unit">
+      <ul class="list-group kilo">
+        <li>FAQs</li>
+        <li>Terms of service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+  </footer>
+
   <footer role="contentinfo" class="gutter-1-2 island-1-2 micro">
     <p>© Freedom Dog Rescue</p>
     <a class="hidden" href="#top">Top</a>

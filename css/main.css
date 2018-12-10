@@ -20,6 +20,10 @@ a:hover {
 .card {
   border: 2px dashed #44331c;
   border-radius: 15px;
+  background-color: #fffaf4;
+}
+
+.card-rescues {
   box-shadow: -2px 4px #e2cdb5;
 }
 
@@ -34,4 +38,34 @@ a:hover {
 
 .banner {
   position: relative;
+}
+
+.home-img {
+  position: relative;
+}
+
+.callout {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 47%;
+}
+
+.btn-callout {
+  background-color: #a8ea46;
+  border-radius: 7px;
+  border-style: none;
+}
+
+.btn-callout:hover {
+  background-color: #fff;
+}
+
+.callout p {
+  color: #e1f2c9;
+  text-shadow: -1px 1px #44331c;
+}
+
+.stories {
+  background-color: #e1f2c9;
 }
