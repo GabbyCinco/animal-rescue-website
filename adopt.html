@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Adopt a dog</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -65,9 +67,13 @@
             <option>Other</option>
           </select>
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1">
+        <div class="unit push xs-1 s-1 m-1 l-1">
           <label for="address">Address</label>
           <textarea id="address" name="address"></textarea>
+        </div>
+        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+          <label for="name">Dog's Name</label>
+          <input id="name" name="name" required>
         </div>
       </div>
     </fieldset>
@@ -91,11 +97,11 @@
     <a class="hidden" href="#top">Top</a>
     <footer role="contentinfo" class="gutter-1-2 island-1-2 micro">
       <p class="tera push-1-4">Stay Connected</p>
-      <a href="#">
         <i class="icon i-192">
-          <svg><use xlink:href="images/social-icons.svg#fb-icon" /></svg>
+          <a href="#">
+            <img src="images/fb-icons" alt="">
+          </a>
         </i>
-      </a>
     </footer>
   </article>
 
