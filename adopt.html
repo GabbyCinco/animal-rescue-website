@@ -19,9 +19,12 @@
     <li><a href="#main">Jump to the main content</a></li>
   </ul>
 
-  <header class="grid grid-middle text-center pad-t pad-b-1-4 push-0">
+  <header role="banner" class="grid grid-middle text-center pad-t pad-b-1-4 push-0">
     <div class="title inline unit xs-1 s-1 m-1 l-1-4 push">
-      <h1 class="bold nina push-0">Adopt a dog</h1>
+      <i class="icon i-192">
+        <img class="header-img" src="images/logo.svg" alt="logo">
+      </i>
+      <h1 class="bold gutter nina push-0">Freedom Dog Rescue</h1>
     </div>
     <div class="unit xs-1 xs-1 m-1 l-3-4 push-1-2">
       <nav role="navigation" id="nav" tabindex="0" class="mega">
@@ -34,48 +37,50 @@
     </div>
   </header>
 
-<main>
-  <form class="gutter-1-2 form" method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
-    <fieldset>
-      <legend class="personal mega push">Personal details</legend>
-      <div class="grid ">
-        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
-          <label for="name">First Name</label>
-          <input id="name" name="name" required>
+  <main role="main">
+    <section class="title inline unit xs-1 s-1 m-1 l-1-4 text-center pad-t-2 push">
+      <h2 class="bold nina push-0">Adopt a dog</h2>
+    </section>
+    <form class="gutter-1-2 form" method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+      <fieldset>
+        <legend class="personal mega push">Personal details</legend>
+        <div class="grid ">
+          <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">First Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="name" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="age">Date of birth</label>
+            <input id="age" type="date" name="age">
+          </div>
+          <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="subject">Gender</label>
+            <select id="subject" name="_subject">
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div>
+          <div class="unit push xs-1 s-1 m-1 l-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+          <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="dog">Dog's Name</label>
+            <input id="dog" name="name" required>
+          </div>
         </div>
-        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
-          <label for="name">Last Name</label>
-          <input id="name" name="name" required>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="age">Date of birth</label>
-          <input id="age" type="date" name="age">
-        </div>
-        <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email" required>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="subject">Gender</label>
-          <select id="subject" name="_subject">
-            <option></option>
-            <option>Female</option>
-            <option>Male</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="unit push xs-1 s-1 m-1 l-1">
-          <label for="address">Address</label>
-          <textarea id="address" name="address"></textarea>
-        </div>
-        <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
-          <label for="name">Dog's Name</label>
-          <input id="name" name="name" required>
-        </div>
-      </div>
-    </fieldset>
-  </form>
-</main>
+      </fieldset>
+      <a class="btn btn-ghost push-2" href="#">Submit</a>
+    </form>
+  </main>
 
   <footer role="contentinfo" class="gutter-1-2 island-1-2 micro">
     <a class="hidden" href="#top">Top</a>
