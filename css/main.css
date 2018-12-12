@@ -15,6 +15,11 @@ a {
 
 a:hover {
   border-bottom: 2px solid #44331c;
+  background-color: #95bf57;
+}
+
+.current {
+  background-color: #95bf57;
 }
 
 .card {
